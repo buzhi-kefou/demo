@@ -1,0 +1,36 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: flowable-process-center
+  datasource:
+    url: jdbc:h2:mem:flowable-center;MODE=MYSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+flowable:
+  async-executor-activate: false
+  database-schema-update: true
+  check-process-definitions: false
+
+parallel:
+  flowable:
+    center:
+      deployment:
+        auto-deploy-enabled: true
+        deployment-name: company-shared-flowable-center
+        resource-locations:
+          - classpath*:/processes/**/*.bpmn20.xml
+      logging:
+        detailed-event-log-enabled: true
+
+logging:
+  level:
+    com.parallel.learn.flowable: INFO
+    org.flowable: INFO

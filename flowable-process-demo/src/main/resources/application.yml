@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: flowable-process-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+parallel:
+  flowable:
+    client:
+      process-service-id: flowable-process-center
+      base-path: /api/remote/process
+      callback-path: /internal/flowable/callback
+      register-callback: true
+
+logging:
+  level:
+    com.parallel.learn.flowable: INFO
+    org.springframework.cloud.loadbalancer: INFO

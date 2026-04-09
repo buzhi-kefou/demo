@@ -1,0 +1,28 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: rocketmq4-demo
+
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: demo-tx-producer-group
+
+demo:
+  rocketmq:
+    consumers-enabled: true
+    normal-topic: demo-normal-topic
+    orderly-topic: demo-orderly-topic
+    delay-topic: demo-delay-topic
+    batch-topic: demo-batch-topic
+    filter-topic: demo-filter-topic
+    transaction-topic: demo-transaction-topic
+    one-way-topic: demo-one-way-topic
+    default-tag: demo
+    filter-tag: blue
+
+logging:
+  level:
+    com.parallel.learn.rocketmq4: INFO
