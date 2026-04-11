@@ -1,8 +1,10 @@
-/rocketmq4-demo/target/
+/.idea/
+/flowable-process-client-spring-boot-starter/target/
 /flowable-process-spring-boot-starter/target/
 /flowable-process-remote-api/target/
-/flowable-process-demo/target/
-/flowable-process-core/target/
-/flowable-process-client-spring-boot-starter/target/
 /flowable-process-center/target/
-/.idea/
+/flowable-process-core/target/
+/flowable-process-demo/target/
+/jvm-learning-demo/target/
+/rocketmq4-demo/target/
+/redis-demo/target/

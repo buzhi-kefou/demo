@@ -13,8 +13,9 @@
     <description>Spring Boot learning demos for RocketMQ, Redis, and Flowable.</description>
 
     <modules>
-        <module>rocketmq4-demo</module>
         <module>redis-demo</module>
+        <module>rocketmq4-demo</module>
+        <module>jvm-learning-demo</module>
         <module>flowable-process-core</module>
         <module>flowable-process-spring-boot-starter</module>
         <module>flowable-process-remote-api</module>
