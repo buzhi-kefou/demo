@@ -1,0 +1,24 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: sentinel-demo
+  cloud:
+    sentinel:
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8080
+        port: 8719
+      web-context-unify: false
+      filter:
+        enabled: true
+
+demo:
+  sentinel:
+    degrade-delay-ms: 800
+
+logging:
+  level:
+    com.parallel.learn.sentinel: INFO
+    com.alibaba.csp.sentinel: INFO

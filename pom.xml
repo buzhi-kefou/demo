@@ -14,6 +14,7 @@
 
     <modules>
         <module>redis-demo</module>
+        <module>sentinel-demo</module>
         <module>rocketmq4-demo</module>
         <module>jvm-learning-demo</module>
         <module>flowable-process-core</module>
