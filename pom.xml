@@ -10,10 +10,11 @@
     <packaging>pom</packaging>
 
     <name>demo</name>
-    <description>RocketMQ 4 learning demos based on Spring Boot.</description>
+    <description>Spring Boot learning demos for RocketMQ, Redis, and Flowable.</description>
 
     <modules>
         <module>rocketmq4-demo</module>
+        <module>redis-demo</module>
         <module>flowable-process-core</module>
         <module>flowable-process-spring-boot-starter</module>
         <module>flowable-process-remote-api</module>
