@@ -1,0 +1,57 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: rabbitmq-demo
+  rabbitmq:
+    host: 192.168.1.3
+    port: 5672
+    username: guest
+    password: guest
+    # 虚拟主机
+    virtual-host: /
+    # 开启发送确认
+    publisher-confirm-type: correlated
+    # 开启发送失败退回
+    publisher-returns: true
+    # 消息手动确认
+    listener:
+      simple:
+        acknowledge-mode: manual
+        # 最小消费者数量
+        concurrency: 1
+        # 最大消费者数量
+        max-concurrency: 10
+        # 每次从队列中取出的消息数量
+        prefetch: 1
+
+demo:
+  rabbitmq:
+    # 交换机配置
+    exchanges:
+      direct: demo.direct.exchange
+      fanout: demo.fanout.exchange
+      topic: demo.topic.exchange
+      headers: demo.headers.exchange
+    # 队列配置
+    queues:
+      direct: demo.direct.queue
+      fanout: demo.fanout.queue
+      topic: demo.topic.queue
+      headers: demo.headers.queue
+      # 死信队列
+      dlq: demo.dlq.queue
+      # 延迟消息队列配置
+      delay: demo.delay.queue
+      delay-exchange: demo.delay.exchange
+      delay-routing-key: demo.delay.routing.key
+    # 路由键配置
+    routing-keys:
+      direct: demo.direct.routing.key
+      topic: demo.topic.routing.key
+
+
+logging:
+  level:
+    com.parallel.learn.rabbitmq: INFO

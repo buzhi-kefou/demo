@@ -23,6 +23,7 @@
         <module>flowable-process-client-spring-boot-starter</module>
         <module>flowable-process-center</module>
         <module>flowable-process-demo</module>
+        <module>rabbitmq-demo</module>
     </modules>
 
     <properties>
