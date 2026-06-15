@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "acd3e62ec69e3cd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4e198621f173a06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8f21bfa45a92be9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/本地项目上传GitHub步骤.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本地项目上传GitHub步骤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d109017a58bc758",
+    "type": "split",
+    "children": [
+      {
+        "id": "405f40cae0709435",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e9d50dea2b8beb6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9232c3a3206a07db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ebcdefe940330796",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c67cf00732c6e79e",
+    "type": "split",
+    "children": [
+      {
+        "id": "38806970baeb3512",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3f21e51a8681119",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/本地项目上传GitHub步骤.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 本地项目上传GitHub步骤"
+            }
+          },
+          {
+            "id": "61a97cf1990ac1b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/本地项目上传GitHub步骤.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 本地项目上传GitHub步骤"
+            }
+          },
+          {
+            "id": "83f05e409f75d6b0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1b245cd3fbe89ae0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0ade83de522a2dfc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/本地项目上传GitHub步骤.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 本地项目上传GitHub步骤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c8f21bfa45a92be9",
+  "lastOpenFiles": [
+    "Notes/Docker离线部署指南.md",
+    "Notes/Docker命令速查卡片.md",
+    "Notes/GitHub.md",
+    "AGENTS.md",
+    "README.md",
+    "Notes/本地项目上传GitHub步骤.md",
+    "提问记录.md",
+    "Notes/Claude.md",
+    "Notes/Docker常用命令大全.md",
+    "Inbox/_archive/2026-06-15.md",
+    "docker-offline/deploy-checklist.md",
+    "docker-offline/README.md",
+    "scripts/git-upload.sh",
+    "Notes/Docker.md",
+    "Notes/项目.md",
+    "Notes/系统.md",
+    "Notes/网络.md",
+    "Notes/数据库.md",
+    "Notes/前端.md",
+    "Notes/后端.md",
+    "docker-offline/quick-deploy.sh",
+    "Notes/工具.md",
+    "Inbox/2026-06-15.md",
+    "Templates/session-template.md",
+    "Templates/note-template.md",
+    "docker-offline/deploy-toolkit.sh",
+    "docker-offline",
+    "scripts/demo.js",
+    "qa.sh",
+    "scripts/auto-init.sh",
+    "scripts/auto-init.sh.tmp.7246.1bcda6d8fa1a",
+    "scripts/init.js",
+    "Notes/Kubernetes.md",
+    "temp-backup/Kubernetes.md",
+    "temp-backup"
+  ]
+}

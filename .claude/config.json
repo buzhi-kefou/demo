@@ -1,0 +1,9 @@
+{
+  "hooks": {
+    "onSessionEnd": "node scripts/record-save.js auto-save"
+  },
+  "autoSave": true,
+  "saveInterval": 30000,
+  "maxSessionHistory": 1000,
+  "cleanupHistoryDays": 30
+}
